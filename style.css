@@ -1,0 +1,60 @@
+*, html {
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: greenyellow;
+}
+
+h1, h3 {
+   text-align: center;
+   padding: 1rem;
+}
+
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   border: solid 1px;
+   width: 300px;
+   height: 300px;
+   margin: 0 auto;
+}
+
+.grid div {
+   width: 20px;
+   height: 20px;
+}
+
+.shooter {
+   background-color: rgb(66, 152, 228);
+}
+
+.invader {
+   background-color: gray;
+   border-radius: 10px;
+}
+
+.boom {
+   background-color: aquamarine;
+}
+
+.laser {
+   background-color: yellow;
+}
+
+.footer p {
+   background: #0c0c0c;
+   padding: 1rem;
+   margin: 3.5rem auto;
+   text-align: center;
+}
+
+#footer {
+   background-color: black;
+   width: 100%;
+   
+}
+
+#date {
+   padding: 2rem;
+   text-align: center;
+}
