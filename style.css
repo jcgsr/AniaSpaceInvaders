@@ -24,21 +24,23 @@ h1, h3 {
    height: 20px;
 }
 
-.shooter {
-   background-color: rgb(66, 152, 228);
+.shooter {   
+   background-image: url('cannon.jpeg');
+   background-size: cover;
 }
 
 .invader {
-   background-color: gray;
+   background-image: url('alien.png');
+   background-size: cover;
    border-radius: 10px;
 }
 
 .boom {
-   background-color: aquamarine;
+   background-color: orangered;
 }
 
 .laser {
-   background-color: yellow;
+   background-color: rgb(49, 222, 228);
 }
 
 .footer p {
@@ -50,8 +52,18 @@ h1, h3 {
 
 #footer {
    background-color: black;
-   width: 100%;
-   
+   width: 100%;   
+}
+
+.directions {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.directions button {
+   font-size: 2rem;
+   margin: 2rem;
+   padding: 1rem;
 }
 
 #date {
